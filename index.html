@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.min.css">
+    <title>Who Said What?</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="index.html" class="header__logo">
+            <img src="./assets/svg/logo-wordmark.svg" alt="Who Said What? Logo" class="logo">
+        </a>
+
+        <!-- MAIN NAV -->
+        <nav class="main-nav">
+            <div class="mobile-nav__close">x</div>
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a href="./pages/landing.html" class="main-nav__link">How to play</a>
+                </li>
+                <!-- <li class="main-nav__item">
+                    <a href="" class="main-nav__link">Leaderboard</a></li> -->
+                <li class="main-nav__item">
+                    <a href="./pages/about.html" class="main-nav__link">About the Creators</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-nav">
+            <div class="mobile-nav__bar"></div>
+            <div class="mobile-nav__bar"></div>
+            <div class="mobile-nav__bar"></div>
+        </div>
+    </header>
+
+
+    <!-- MAIN -->
+    <main class="main">
+        <section class="section">
+
+        <!-- MAIN GAME PLAY ZONE -->
+        <div class="interact">
+            <div class="interact__content">
+                <div class="interact__wrong">X</div>
+                <div class="interact__correct">&#x2713;</div>
+                <div id="trump" class="interact__button interact__button--trump">
+                    <h2 class="interact__label">Donald Trump</h2>
+                </div>
+                <a href="" id="startButton" class="button button--start">start</a>
+    
+                <div id="kanye" class="interact__button interact__button--kanye">
+                    <h2 class="interact__label">Kanye West</h2>
+                </div>
+                <div class="interact__quote">
+                    <h3 class="quote__text">"I am the greatest I am the greatestI am the greatestI am the greatest"</h3>
+                </div>
+
+            </div>
+            
+        </div>
+        
+
+        <!-- SCORE BOARD -->
+        <div class="score">
+
+            <div class="score__title">
+                <p>Score</p>
+                
+            </div>
+            <img src="./assets/svg/kapow small.svg" alt="Small comic book-style explosion" class="score__image">
+            <div class="score__healthbar">
+                <!-- <div class="score__unit"></div>
+                <div class="score__unit"></div>
+                <div class="score__unit"></div>
+                <div class="score__unit"></div>
+                <div class="score__unit"></div>
+                <div class="score__unit"></div>
+                <div class="score__unit"></div>
+                <div class="score__unit"></div>
+                <div class="score__unit"></div>
+                <div class="score__unit"></div> -->
+            </div>
+            
+           
+        </div>
+
+        <!-- OUTCOME -->
+
+        <section class="section">
+            <div class="outcome">
+                <div class="outcome__content outcome__content--win">
+                    <h3 class="outcome__label">You Win!</h3>
+                    <div class="outome__image"></div>
+                    <a href="" class="button button--restart">Restart</a>
+                </div>
+                
+            </div>
+            <div class="outcome">
+                <div class="outcome__content outcome__content--lose">
+                    <h3 class="outcome__label">You Lose!</h3>
+                    <div class="outome__image"></div>
+                    <a href="" class="button button--restart">Restart</a>
+                </div>
+                
+            </div>
+        </section>
+
+        </section>
+         <!-- <a href="" class="leaderboard">View Leaderboard</a> -->
+        <!-- <section class="section">
+            <div class="leaderboard">
+                <h3 class="leaderboard__label">Top Scores</h3>
+                <div class="leaderboard__name">Suzie Smith</div>
+                <div class="leaderboard__score">30</div>
+            </div>
+        </section> -->
+
+        <!-- <section class="section">
+            <div class="rules">
+                <h3 class="rules__label">How to Play</h3>
+                <p class="rules__content">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi omnis ea eum, ab harum error necessitatibus non facilis natus pariatur earum ipsa animi! Vel deserunt esse impedit nesciunt dicta officiis.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="about">
+                <h3 class="about__label">About the Creators</h3>
+                <div class="about__image">Pic</div>
+                <div class="about__name">Name Name</div>
+                <div class="about__bio">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis est sint magnam, maiores molestiae, ratione sed natus laborum placeat temporibus debitis blanditiis odit quis! Maiores dignissimos placeat sequi ratione impedit?
+                </div>
+            </div>
+        </section> -->
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
